@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <title>Make Pattern</title>
         <meta name="viewport" content="width= device-width,initial-scale 1.0">
-        <script> src ="js/script.js" </script>
         <link rel="stylesheet" href = "../Bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="../style.css">
+        <script src= "../js/script.js"></script>
         <script src = "../jquery-3.5.1.slim.min.js"></script>
         <script src = "../popper.min.js"></script>
         <script src = "../Bootstrap/bootstrap.min.js"></script>
@@ -23,7 +23,7 @@
                 <a href = "Square.html" class="nav-link">Square</a>
             </li>
             <li class="nav-item">
-                <a href = "./RightTriangle.html" class="nav-link">Right Triangle</a>
+                <a href = "./RightTriangle.html" class="nav-link">Elbow Triangle</a>
             </li>
             <li class="nav-item">
                 <a href = "./IsocelesTriangle.html" class="nav-link">Isoceles Triangle</a>
@@ -35,6 +35,23 @@
                 <a href = "./X.html" class="nav-link">X Symbol</a>
             </li>
         </ul>
+    </div>
+  </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Square!</h2>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col">
+                <p> Let's try making a Square!</p>
+                <input type="text" id="builder" value="Input Builder"><br>
+                <input type="text" id="layer" value="Input Layer"><br>
+                <button type="button" onclick="Square()" >Press Me!</button><br>
+                <span id="dispbox"></span>
+            </div>
+        </div>
     </div>
 </body>
 </html>
